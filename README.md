@@ -59,6 +59,15 @@ My records for this model are stored in AlphabetSoupCharity_Optimization.h5.
 ## Summary:
 > * The best accuracy that can be achieved at this time is 73.99%. I can think of nothing else that I can do except to consult with other data scientists and read further on the subject.  However, after giving this some though I might would try a different learning model such as Random Forest Classifier. Additionally, running the final model once more but leaving the Classification column might be my next step in this journey. 
 
+# Project Update:
+
+> * After some conversation and investigation, stratify was turned "off" in the train/test split which resulted in a slight change in accuracy and loss in the model:
+
+> ![image](https://user-images.githubusercontent.com/83737584/142083467-d53cbe62-4dc8-4a8f-9b8b-bb01ef13b026.png)
+
+> ![image](https://user-images.githubusercontent.com/83737584/142083516-fce21c90-883d-4cb6-8271-3eba5a5215b6.png)
+
+
 <hr>
 Contact:
 
