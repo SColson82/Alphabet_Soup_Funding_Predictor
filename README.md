@@ -1,4 +1,4 @@
-# Alphbet_Soup_Funding_Predictor
+# Alphabet_Soup_Funding_Predictor
 
 **OVERVIEW:** Using TensorFlow I have designed a neural network, or deeplearning model, to create a binary classification model that can predict if an Alphabet Soup-funded organisation will be successful based on the features on the dataset given. 
 
