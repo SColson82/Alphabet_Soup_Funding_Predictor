@@ -31,7 +31,7 @@
 > * Tried every optimization algorithm in the Tensorflow documentation. I eventually chose adagrad. 
 
 ## Summary:
-> * The best accuracy that can be achieved at this time is 0.7208. I can think of nothing else that I can do except to consult with other data scientists and read further on the subject.  
+> * The best accuracy that can be achieved at this time is 0.7208. I can think of nothing else that I can do except to consult with other data scientists and read further on the subject.  I might would try a different learning model such as Random Forest Classifier. 
 
 <hr>
 Contact:
