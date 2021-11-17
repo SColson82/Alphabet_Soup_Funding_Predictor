@@ -46,26 +46,16 @@ My records for these are stored in AlphabetSoupCharity.h5.
 > ![image](https://user-images.githubusercontent.com/83737584/142071570-b54112dd-918b-43b3-8609-01f3be2df2f1.png)
 
 
-> * In the end, after slowly adding neurons and hidden layers, I was able to get the training set to produce an accuracy of above 75% with a loss of 0.4867. 
+> * In the end, after slowly adding neurons and hidden layers and setting the random state to 2, I was able to get the testing set to produce an accuracy of above 75% with a loss of 0.4908. Additionally, the stratify paramet was turned "off" in the train/test split which did appear to add a slight change in accuracy and loss in the model. 
 
-> ![image](https://user-images.githubusercontent.com/83737584/142071932-3f5e1439-a1e1-44cb-805a-8a7f7dc74017.png)
+> ![image](https://user-images.githubusercontent.com/83737584/142137146-a10e400a-acd8-4feb-a9e6-9dc1a4ef7f3d.png)
 
-> * Test accuracy rose from the original 72.41% to 73.99% and loss dropped from 0.558 to 0.499. 
-
-> ![image](https://user-images.githubusercontent.com/83737584/142072183-8472036f-0e44-4dcb-b6e5-a5a5dd090509.png)
+> ![image](https://user-images.githubusercontent.com/83737584/142083467-d53cbe62-4dc8-4a8f-9b8b-bb01ef13b026.png)
 
 My records for this model are stored in AlphabetSoupCharity_Optimization.h5.
 
 ## Summary:
-> * The best accuracy that can be achieved at this time is 73.99%. I can think of nothing else that I can do except to consult with other data scientists and read further on the subject.  However, after giving this some though I might would try a different learning model such as Random Forest Classifier. Additionally, running the final model once more but leaving the Classification column might be my next step in this journey. 
-
-# Project Update:
-
-> * After some conversation and investigation, stratify was turned "off" in the train/test split which resulted in a slight change in accuracy and loss in the model:
-
-> ![image](https://user-images.githubusercontent.com/83737584/142083467-d53cbe62-4dc8-4a8f-9b8b-bb01ef13b026.png)
-
-> ![image](https://user-images.githubusercontent.com/83737584/142083516-fce21c90-883d-4cb6-8271-3eba5a5215b6.png)
+> * The best accuracy that can be achieved at this time is 75.03%.  After giving this some though I might would try a different learning model such as Random Forest Classifier. Additionally, running the final model once more but leaving the Classification column might be my next step in this journey. 
 
 
 <hr>
